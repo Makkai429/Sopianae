@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css" media="screen">
+    <title>Sopianae - Gallery</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html">Introduction</a>
+            <a href="whatisit.html">What is Sopianae?</a>
+            <a href="famous.html">Why is it Famous?</a>
+            <a href="todaysculture.html">Today's Culture</a>
+            <a href="gallery.html" class="active">Gallery</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Gallery</h1>
+        <div class="gallery">
+        <img id="main-image" src="Images/EarlyChristianNecropolis.jpg" alt="Galéria kép" width="600">
+    </div>
+    <div class="thumbnails">
+        <img src="Images/EarlyChristianNecropolis.jpg" alt="Sarcophagus Chamber of the Early Christian Necropolis" onclick="changeImage('Images/EarlyChristianNecropolis.jpg')">
+        <img src="Images/Necropolis.jpg" alt="Painted Burial Chamber from the Early Christian Necropolis" onclick="changeImage('Images/Necropolis.jpg')">
+        <img src="Images/attraction.jpg" alt="Roman Bath Ruin in Front of the Király Thermal Bath." onclick="changeImage('Images/attraction.jpg')">
+        <img src="Images/sopianaeReviviscit.jpg" alt="The Sopianae Reviscit festival. The Roman soldiers are walking down the street and the crowd is following them." onclick="changeImage('Images/sopianaeReviviscit.jpg')">
+    </main>
+    <script src="gallery.js"></script>
+    </main>
+</body>
+</html>
